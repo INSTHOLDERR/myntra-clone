@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra</title>
+    <link rel="icon" href="https://pixlok.com/wp-content/uploads/2021/10/Myntra-Logo-PNG-ovjndf3.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container-fluid">
+<!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <div class="container-fluid " >
+          <div class=" nav-bar row position-sticky sticky-top">
+          <div class="col-1 col-sm-6 col-md-3 col-lg-3 col-xl-3" style="  width: 250px;">
+          <a class="navbar-brand" href="#"><img style="margin-left: 70px; margin-right: 50px;" class="logo" src="https://pixlok.com/wp-content/uploads/2021/10/Myntra-Logo-PNG-ovjndf3.jpg" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+          <div class="collapse navbar-collapse col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" style="padding-right: 50px;" aria-current="page" href="#">MEN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="padding-right: 50px;" href="#">WOMEN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " style="padding-right: 50px;" href="#">KIDS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  style="padding-right: 50px;" href="#">HOME & LIVING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="padding-right: 50px;" href="#">BEAUTY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="padding-right: 50px;" href="#">STUDIO</a>
+              </li>
+            </ul>
+          </div>
+            <div class="search-box col-3 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+              <form class="d-flex ">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                 
+                </form>
+            </div>
+            <div class="pro col-2 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                <div class="pro1 ">
+                  <a href="#"><img  class="profile" src="https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt=""></a>
+                  <p style="font-size: 20px; font-weight: bold;">PROFILE</p>
+                </div>
+                <div class="pro11 ">
+                  <i class="fa-regular fa-heart"></i>
+                  <p style="font-size: 20px; font-weight: bold;">WISHLIST</p>
+                </div>
+                <div class="pro11 ">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                  <p style="font-size: 20px; font-weight: bold;">BAG</p>
+                </div>
+            </div>
+          </div>  
+        
+         
+        </div>
+      </nav>
+   
+      <!-- slides -->
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="padding-top: 50px;">
+        <div class="carousel-inner">
+          <div class=" carousel-item active" data-bs-interval="1000">
+
+              <div class="row" >
+                <div class="col-8 p-0 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                  <img class="slide-img " src="https://img.freepik.com/free-photo/woman-receiving-compliments-attending-luxury-party-evening-dress-gently-touching-breast-flirt_1258-135763.jpg?w=1380&t=st=1690355035~exp=1690355635~hmac=ea427d11dd0a54b3bdd9683cab84fe7bfaed16c3bc49bd9dd544cf775ac42ab0" class="d-block w-100" alt="img">
+                </div>
+                <div class="col-4 p-0 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <img  class=" slide-offer "  src="https://img.freepik.com/free-psd/special-deal-super-offer-upto-60-parcent-off-isolated-3d-render-with-editable-text_47987-15330.jpg?t=st=1690355904~exp=1690356504~hmac=d60a6867c0a5ca87d9022ea7564cb0a7c0e1b2f9cf837f10c8c685dfeb9a52cd" alt="offer">
+                </div>
+              </div>
+          </div>
+
+         <div class=" carousel-item active" data-bs-interval="1000">
+              <div class="row" >
+                <div class="col-8 p-0 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                  <img class="slide-img " src="https://img.freepik.com/free-photo/selfassured-woman-looking-confused-displeased-while-pointing-herself-standing-glamour-dres_1258-165950.jpg?w=1380&t=st=1690357648~exp=1690358248~hmac=9aa783e8825a1a6f54759a3d8a5862b55ad792574f5f2c42e2d83021592a5372" class="d-block w-100" alt="img">
+                </div>
+                <div class="col-4 p-0 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <img  class=" slide-offer " src="https://img.freepik.com/free-vector/last-minute-offer-background-with-megaphone-design_1017-45026.jpg?w=740&t=st=1690357751~exp=1690358351~hmac=74747865bbc5033a0b53d239394d042c637fc91f450583f3f1e63ef6692b4ca8" alt="offer">
+                </div>
+              </div>
+          </div>
+
+          <div class=" carousel-item active" data-bs-interval="1000">
+            <div class="row" >
+              <div class="col-8 p-0 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <img class="slide-img " src="https://img.freepik.com/free-photo/romantic-asian-woman-smiling-happy-listening-music-headphones-dancing-standing-trendy-dres_1258-156833.jpg?w=1380&t=st=1690358045~exp=1690358645~hmac=2542a47f0930b6063b657fedc9fa53ecbb66fc7cace1c6c99ecd545932d75a15" class="d-block w-100" alt="img">
+              </div>
+              <div class="col-4 p-0 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                  <img  class=" slide-offer " src="https://img.freepik.com/free-vector/mega-sale-banner-blue-yellow-colors_1017-32176.jpg?w=1380&t=st=1690358075~exp=1690358675~hmac=a61641dbe0977b8bdb93f26b0a66b5c69d294322ceb474a762acd31a3a79d4be" alt="offer">
+              </div>
+            </div>
+           </div>
+
+           <div class=" carousel-item active" data-bs-interval="1000">
+            <div class="row" >
+              <div class="col-8 p-0 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <img class="slide-img " src="https://img.freepik.com/free-photo/elegant-sassy-goodlooking-africanamerican-stylish-millennial-woman-glittering-elegant-silver-dres_1258-152235.jpg?w=1380&t=st=1690358130~exp=1690358730~hmac=4df8e0405bd521b7e96a07105c5d8eb58ff032cf0b7c6fe3fcfc2ed55770f213" class="d-block w-100" alt="img">
+              </div>
+              <div class="col-4 p-0 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                  <img  class=" slide-offer " src="https://img.freepik.com/free-vector/black-friday-sale-banner-with-discount-offer-details_1017-41262.jpg?w=740&t=st=1690358152~exp=1690358752~hmac=53860188b7cf986d914b91beaa38ca7e431cff3f605b5c8e0f5723b5956c67a6" alt="offer">
+              </div>
+            </div>
+           </div>
+
+
+           <div class=" carousel-item active" data-bs-interval="1000">
+            <div class="row" >
+              <div class="col-8 p-0 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <img class="slide-img " src="https://img.freepik.com/free-photo/shocked-concerned-stunned-young-european-blond-woman-silver-dres-drop-jaw-widen-eyes-stunned-spee_1258-131611.jpg?w=1380&t=st=1690358197~exp=1690358797~hmac=c1bcea17214a96fd9d10103bf956014de60044eb41ba8f42570211be03d5c0c8" class="d-block w-100" alt="img">
+              </div>
+              <div class="col-4 p-0 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                  <img  class=" slide-offer " src="https://img.freepik.com/free-vector/special-offer-creative-sale-banner-design_1017-16284.jpg?1&w=900&t=st=1690358221~exp=1690358821~hmac=35f08877817ad8074c562e2d481c3595572f1906b79978bd33c234c372ea9cdb" alt="offer">
+              </div>
+            </div>
+           </div>
+
+           <div class=" carousel-item active" data-bs-interval="1000">
+            <div class="row" >
+              <div class="col-8 p-0 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <img class="slide-img " src="https://img.freepik.com/premium-photo/shocked-startled-young-woman-freeze-awe-open-mouth-look-camera-amazed-standing-dres_1258-150256.jpg" class="d-block w-100" alt="img">
+              </div>
+              <div class="col-4 p-0 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                  <img  class=" slide-offer " src="https://img.freepik.com/free-vector/final-sale-yellow-with-offer-details_1017-30356.jpg?w=740&t=st=1690358313~exp=1690358913~hmac=bd63950cc09f1199123e752515c71c945e29f72fcac199c5cac1f09d77ae5be1" alt="offer">
+              </div>
+            </div>
+           </div>
+          
+        </div>
+<!-- a -->
+<div class="container-fluid">
+    <div  class="a ">
+        <div class="row">
+          <div class="col-5 col-xs-12 col-sm-3 col-lg-4 col-xl-4">
+            <a href="#"><img class="nature-img" src="https://img.freepik.com/free-photo/natural-disaster-concept-with-flood_23-2150385394.jpg?t=st=1690362651~exp=1690366251~hmac=bd6d381b8ba5104badfea8e43310c923bd995b60793079c22a5a7a6beef36f86&w=1380" alt="pic"></a>
+          </div>
+          <div class="col-4 col-xs-12 col-sm-3 col-lg-4 col-xl-4">
+            <a href="#"><img class="donation" src="https://img.freepik.com/free-vector/volunteers-packing-donation-boxes_74855-5299.jpg?w=1380&t=st=1690361934~exp=1690362534~hmac=ba7371d0fa85d14a451b74127d7ab8b3eef09c81a7b9395bb0dadec90dc9cb04" alt="Donation"></a>
+          </div>
+          <div class="col-3 col-xs-12 col-sm-3 col-lg-4 col-xl-4">
+            <a href="#" class="button button--pen">
+              <div class="button__wrapper  col-sm-12 col-md-4 col-lg-3 col-xl-4">
+                  <span class="button__text">DONATE</span>
+              </div>
+              <div class="characterBox ">
+                  <div class="character wakeup">
+                      <div class="character__face"></div>
+                      <div class="charactor__face2"></div>
+                  </div>
+                  <div class="character wakeup ">
+                      <div class="character__face"></div>
+                      <div class="charactor__face2"></div>
+                  </div>
+                  <div class="character ">
+                      <div class="character__face"></div>
+                      <div class="charactor__face2"></div>
+                  </div>
+              </div>
+          </a>
+      
+      </div>
+          </div>
+        </div>
+     </div>
+    </div>
+<!-- Heading -->
+    <div class="row">
+      <p class="heading">DEAL OF THE DAY</p>
+    </div>
+
+<!-- b -->
+<div class="container-fluid">
+        <div class="row " >
+          <div class="img-b col-xs-6 col-sm-6 col-lg-4 col-xl-2">
+            <a href="#"><img class="b" src="https://img.freepik.com/free-photo/trendy-top-design-mockup-presented-wooden-hanger_460848-13967.jpg?t=st=1690363401~exp=1690364001~hmac=97bfa42d616c03ed1842f940923ce5141949905fea38ece97495414bc1b64bd0" alt=""></a>
+            <a href="#"><img class="b-off" src="https://img.freepik.com/free-vector/special-offer-modern-sale-banner-template_1017-20667.jpg?w=900&t=st=1690363560~exp=1690364160~hmac=1ffde2062f0b8501673304a03c12609edc1c8c85849483153434b3261d6bf2bd" alt="off"></a>
+          </div>
+          
+          <div class="img-b col-xs-12 col-sm-6 col-lg-3 col-xl-2 ">
+            <a href="#"><img class="b" src="https://img.freepik.com/free-vector/beauty-skin-care-background_52683-728.jpg?w=1060&t=st=1690363808~exp=1690364408~hmac=146b6f52ae7a7c793ec7ee0943d31ba069e0f070fa107dcd8bca51f260fd3dcc" alt=""></a>
+            <a href="#"><img class="b-off" src="https://img.freepik.com/free-psd/special-deal-super-offer-upto-60-parcent-off-isolated-3d-render-with-editable-text_47987-15330.jpg?w=900&t=st=1690363852~exp=1690364452~hmac=72f3121535b5555704965297961edf9729346a5135e7d3b22939c5f8a740bbf4" alt="off"></a>
+          </div>
+
+          <div class="img-b col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+            <a href="#"><img class="b" src="https://img.freepik.com/premium-psd/cosmetic-product-packaging-mockup_1150-40282.jpg" alt=""></a>
+            <a href="#"><img class="b-off" src="https://img.freepik.com/free-vector/modern-shopping-banner-design-background_1017-16285.jpg?1&w=900&t=st=1690363904~exp=1690364504~hmac=42d57f971c23c2c94741ee9cce672553f58a2993ce3174682a2b68e0d36430a0" alt="off"></a>
+          </div>
+
+          <div class="img-b col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+            <a href="#"><img class="b" src="https://img.freepik.com/free-photo/spring-wardrobe-switch-still-life_23-2150176679.jpg?w=1060&t=st=1690363986~exp=1690364586~hmac=eae19a34dbc2c4282f5dc1c11ea0d52bea15ab5724b5d048117acf73a581ec3b" alt=""></a>
+            <a href="#"><img class="b-off" src="https://img.freepik.com/premium-vector/up-50-percent-off-special-offer-promo-marketing-sale-tag_419341-208.jpg?w=1060" alt="off"></a>
+          </div>
+
+          <div class="img-b  col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+            <a href="#"><img class="b" src="https://img.freepik.com/free-photo/young-handsome-man-choosing-clothes-shop_1303-19720.jpg?t=st=1690364059~exp=1690364659~hmac=540b62e2271765be60a4b2ccff67a499f5b5e4880f5fc62c858d3541a5b147cd" alt=""></a>
+            <a href="#"><img class="b-off" src="https://img.freepik.com/free-vector/mega-sale-banner-blue-yellow-colors_1017-32176.jpg?w=1380&t=st=1690364081~exp=1690364681~hmac=ceeda0ed873ac6d6b704b507cf8fa6f6e8aed2fc177a24029d1cd800e8b6dc49" alt="off"></a>
+          </div>
+
+          <div class="img-b  col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+            <a href="#"><img class="b" src="https://img.freepik.com/free-photo/cute-stylish-children_155003-8330.jpg?t=st=1690364098~exp=1690364698~hmac=48ba678ef428efc49660ed915e027994838d68fb219078eec93b896faa77ab10" alt=""></a>
+            <a href="#"><img class="b-off" src="https://img.freepik.com/premium-vector/special-offer-sale-template-banner-sale_151987-264.jpg" alt="off"></a>
+          </div>
+          <div class="img-b col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+            <a href="#"><img class="b" src="https://img.freepik.com/free-photo/trendy-top-design-mockup-presented-wooden-hanger_460848-13967.jpg?t=st=1690363401~exp=1690364001~hmac=97bfa42d616c03ed1842f940923ce5141949905fea38ece97495414bc1b64bd0" alt=""></a>
+            <a href="#"><img class="b-off" src="https://img.freepik.com/free-vector/special-offer-modern-sale-banner-template_1017-20667.jpg?w=900&t=st=1690363560~exp=1690364160~hmac=1ffde2062f0b8501673304a03c12609edc1c8c85849483153434b3261d6bf2bd" alt="off"></a>
+          </div>
+          
+          <div class="img-b col-xs-12 col-sm-6 col-lg-3 col-xl-2 ">
+            <a href="#"><img class="b" src="https://img.freepik.com/free-vector/beauty-skin-care-background_52683-728.jpg?w=1060&t=st=1690363808~exp=1690364408~hmac=146b6f52ae7a7c793ec7ee0943d31ba069e0f070fa107dcd8bca51f260fd3dcc" alt=""></a>
+            <a href="#"><img class="b-off" src="https://img.freepik.com/free-psd/special-deal-super-offer-upto-60-parcent-off-isolated-3d-render-with-editable-text_47987-15330.jpg?w=900&t=st=1690363852~exp=1690364452~hmac=72f3121535b5555704965297961edf9729346a5135e7d3b22939c5f8a740bbf4" alt="off"></a>
+          </div>
+        
+
+     </div>
+    </div>
+      <!-- Heading -->
+        <div class="row">
+          <p class="heading">BEST OF MYNTRA EXCLUSIVE BRANDS</p>
+        </div>
+<!-- c -->
+      <div class="row">
+        <div class="img-c col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+          <a href="#"><img class="c" src="https://img.freepik.com/free-photo/trendy-top-design-mockup-presented-wooden-hanger_460848-13967.jpg?t=st=1690363401~exp=1690364001~hmac=97bfa42d616c03ed1842f940923ce5141949905fea38ece97495414bc1b64bd0" alt=""></a>
+          <a style=" text-decoration: none;" href="#"><p class="p-c"> FORE SALE</p></a>
+        </div>
+        
+        <div class="img-c col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+          <a href="#"><img class="c" src="https://img.freepik.com/free-vector/beauty-skin-care-background_52683-728.jpg?w=1060&t=st=1690363808~exp=1690364408~hmac=146b6f52ae7a7c793ec7ee0943d31ba069e0f070fa107dcd8bca51f260fd3dcc" alt=""></a>
+          <a style=" text-decoration: none;" href="#"><p class="p-c"> FORE SALE</p></a>
+        </div>
+
+        <div class="img-c col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+          <a href="#"><img class="c" src="https://img.freepik.com/premium-psd/cosmetic-product-packaging-mockup_1150-40282.jpg" alt=""></a>
+          <a style=" text-decoration: none;" href="#"><p class="p-c"> FORE SALE</p></a>
+        </div>
+
+        <div class="img-c col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+          <a href="#"><img class="c" src="https://img.freepik.com/free-photo/spring-wardrobe-switch-still-life_23-2150176679.jpg?w=1060&t=st=1690363986~exp=1690364586~hmac=eae19a34dbc2c4282f5dc1c11ea0d52bea15ab5724b5d048117acf73a581ec3b" alt=""></a>
+          <a style=" text-decoration: none;" href="#"><p class="p-c"> FORE SALE</p></a>
+        </div>
+
+        <div class="img-c col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+          <a href="#"><img class="c" src="https://img.freepik.com/free-photo/young-handsome-man-choosing-clothes-shop_1303-19720.jpg?t=st=1690364059~exp=1690364659~hmac=540b62e2271765be60a4b2ccff67a499f5b5e4880f5fc62c858d3541a5b147cd" alt=""></a>
+          <a style=" text-decoration: none;" href="#"><p class="p-c"> FORE SALE</p></a>
+        </div>
+
+        <div class="img-c col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+          <a href="#"><img class="c" src="https://img.freepik.com/free-photo/cute-stylish-children_155003-8330.jpg?t=st=1690364098~exp=1690364698~hmac=48ba678ef428efc49660ed915e027994838d68fb219078eec93b896faa77ab10" alt=""></a>
+          <a style=" text-decoration: none;" href="#"><p class="p-c"> FORE SALE</p></a>
+        </div>
+
+        <div class="img-c col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+          <a href="#"><img class="c" src="https://img.freepik.com/free-photo/young-woman-with-shopping-bags-beautiful-dress_1303-17550.jpg?t=st=1690365050~exp=1690365650~hmac=d032744254918b3d9f2b9ff0cd0d72b3d82fc6e871ee1eb8264ad44a32cdc65a" alt=""></a>
+          <a style=" text-decoration: none;" href="#"><p class="p-c"> FORE SALE</p></a>
+        </div>
+
+        <div class="img-c col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+          <a href="#"><img class="c" src="https://img.freepik.com/premium-photo/ecofriendly-body-care-products-massage-brushes-mockup-bottles-with-cosmetics-based-natural-ingredients_531397-1903.jpg" alt=""></a>
+          <a style=" text-decoration: none;" href="#"><p class="p-c"> FORE SALE</p></a>
+        </div>
+
+
+        <div class="img-c col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+          <a href="#"><img class="c" src="https://img.freepik.com/free-vector/cosmetics-advertising-skin-softening-day-night-moisturizing-cream-dispenser-tube-pots-lotus-flower-realistic-composition_1284-29032.jpg?w=1060&t=st=1690376482~exp=1690377082~hmac=2f5545c832f931aa70cfab8cebb90de02d1a797b34b45722603019663374030d" alt=""></a>
+          <a style=" text-decoration: none;" href="#"><p class="p-c"> FORE SALE</p></a>
+        </div>
+        
+        <div class="img-c col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+          <a href="#"><img class="c" src="https://img.freepik.com/premium-psd/3d-render-dropper-bottle-rock-podium-with-tropical-leaf-product-display_252008-1419.jpg?w=740" alt=""></a>
+          <a style=" text-decoration: none;" href="#"><p class="p-c"> FORE SALE</p></a>
+        </div>
+
+        <div class="img-c col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+          <a href="#"><img class="c" src="https://img.freepik.com/premium-photo/fashion-male-sport-shoes-blue-background-stylish-man-sneakers-fitness-close-up_77190-1693.jpg?w=1060" alt=""></a>
+          <a style=" text-decoration: none;" href="#"><p class="p-c"> FORE SALE</p></a>
+        </div>
+
+        <div class="img-c col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+          <a href="#"><img class="c" src="https://img.freepik.com/free-photo/trendy-top-design-mockup-presented-wooden-hanger_460848-13969.jpg?w=740&t=st=1690376406~exp=1690377006~hmac=97851ae14c476f16346e326772756ca664eaef9ce6de39c23218eeb1e135c91c" alt=""></a>
+          <a style=" text-decoration: none;" href="#"><p class="p-c"> FORE SALE</p></a>
+        </div>
+        <div class="img-c col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+          <a href="#"><img class="c" src="https://img.freepik.com/free-vector/cosmetics-advertising-skin-softening-day-night-moisturizing-cream-dispenser-tube-pots-lotus-flower-realistic-composition_1284-29032.jpg?w=1060&t=st=1690376482~exp=1690377082~hmac=2f5545c832f931aa70cfab8cebb90de02d1a797b34b45722603019663374030d" alt=""></a>
+          <a style=" text-decoration: none;" href="#"><p class="p-c"> FORE SALE</p></a>
+        </div>
+        
+        <div class="img-c col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+          <a href="#"><img class="c" src="https://img.freepik.com/premium-psd/3d-render-dropper-bottle-rock-podium-with-tropical-leaf-product-display_252008-1419.jpg?w=740" alt=""></a>
+          <a style=" text-decoration: none;" href="#"><p class="p-c"> FORE SALE</p></a>
+        </div>
+
+        <div class="img-c col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+          <a href="#"><img class="c" src="https://img.freepik.com/premium-photo/fashion-male-sport-shoes-blue-background-stylish-man-sneakers-fitness-close-up_77190-1693.jpg?w=1060" alt=""></a>
+          <a style=" text-decoration: none;" href="#"><p class="p-c"> FORE SALE</p></a>
+        </div>
+
+        <div class="img-c col-xs-12 col-sm-6 col-lg-3 col-xl-2">
+          <a href="#"><img class="c" src="https://img.freepik.com/free-photo/trendy-top-design-mockup-presented-wooden-hanger_460848-13969.jpg?w=740&t=st=1690376406~exp=1690377006~hmac=97851ae14c476f16346e326772756ca664eaef9ce6de39c23218eeb1e135c91c" alt=""></a>
+          <a style=" text-decoration: none;" href="#"><p class="p-c"> FORE SALE</p></a>
+        </div>
+
+
+      </div>
+
+
+      <!-- Heading -->
+      <div class="row">
+        <p class="heading">TOP PICKS</p>
+      </div>
+
+      <!-- d -->
+<div class="container-fluid">
+      <div class="row">
+        <div class="img-d col-1 col-xs-6 col-sm-6 col-lg-3 col-xl-1">
+          <div >
+            <a href="#"><img class="img-dd" src="https://img.freepik.com/free-photo/pink-sweater-front_125540-746.jpg?w=996&t=st=1690376558~exp=1690377158~hmac=de5e87e760048b19975d7a58ff74827cf01dbe236a4082ae2e7d04a82fa43b99" alt=""></a>
+            <p class="p-d">Under 599</p>
+        </div>
+      </div>
+        
+
+        <div class="img-d col-1 col-xs-6 col-sm-6 col-lg-3 col-xl-1">
+          <div >
+            <a href="#"><img class="img-dd" src="https://img.freepik.com/free-photo/portrait-handsome-smiling-stylish-young-man-model-dressed-red-checkered-shirt-fashion-man-posing_158538-4909.jpg?w=996&t=st=1690376586~exp=1690377186~hmac=cc240b75ec9328b30cc1458eec320ae6a4695f87d7dd55fe040533f66b609bd8" alt=""></a>
+            <p class="p-d">Under 2999</p>
+        </div>
+      </div>
+
+        <div class="img-d col-1 col-xs-6 col-sm-6 col-lg-3 col-xl-1">
+          <div >
+            <a href="#"><img class="img-dd" src="https://img.freepik.com/free-photo/young-woman-beautiful-red-dress_1303-17500.jpg?w=1060&t=st=1690376615~exp=1690377215~hmac=bf80e99fad145dd4554c90e845761af5258ac90a1a875e48c5acd86e3b080489" alt=""></a>
+            <p class="p-d">Under 999</p>
+        </div>
+      </div>
+        <div class="img-d col-1 col-xs-6 col-sm-6 col-lg-3 col-xl-1">
+          <div >
+            <a href="#"><img class="img-dd" src="https://img.freepik.com/free-photo/beautiful-young-woman-wearing-sari_23-2149502963.jpg?w=1060&t=st=1690377763~exp=1690378363~hmac=d9fec65cc52a98c7dcc5a4cd4ec3e7f3ea59db6262cc366a9b8a92e694bf54d9" alt=""></a>
+            <p class="p-d">Under 1999</p>
+        </div>
+      </div>
+
+        <div class="img-d col-1 col-xs-6 col-sm-6 col-lg-3 col-xl-1">
+          <div >
+            <a href="#"><img class="img-dd" src="https://img.freepik.com/premium-photo/gorgeous-woman-dressed-traditional-indian-suit-sari-jewelry-set-portrait-full-height_353119-492.jpg?w=740" alt=""></a>
+            <p class="p-d">Under 399</p>
+        </div>
+      </div>
+
+        <div class="img-d col-1 col-xs-6 col-sm-6 col-lg-3 col-xl-1">
+          <div >
+            <a href="#"><img class="img-dd" src="https://img.freepik.com/free-photo/full-length-portrait-attractive-man-pointing-finger-away_171337-8969.jpg?w=740&t=st=1690377860~exp=1690378460~hmac=6c7b219bf106018010903a5eb078f699d843e4d1b2e0644d6554a94b44a7eb6a" alt=""></a>
+            <p class="p-d">Under 799</p>
+        </div>
+      </div>
+
+        <div class="img-d col-1 col-xs-6 col-sm-6 col-lg-6 col-xl-1">
+          <div >
+            <a href="#"><img class="img-dd" src="https://img.freepik.com/free-photo/brunette-guy-cap-winks-poses-with-inflatable-circle-fulllength-portrait-man-shorts-with-bottle-beer_197531-27428.jpg?w=1060&t=st=1690377904~exp=1690378504~hmac=10bd8fbb8d9aab7aae973154368fd33edf2319ab9b02450a9add53343163ad88" alt=""></a>
+            <p class="p-d">Under 3999</p>
+        </div>
+      </div>
+      </div>
+    </div>
+   <!-- Heading -->
+       <div class="row">
+       <p class="heading">CATEGORIES TO BAG</p>
+       </div>
+
+
+<!-- e -->
+<div class="container-fluid">
+<div class="row">
+  <div class="img-e col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+    <a href="#"><img class="e" src="https://img.freepik.com/free-photo/portrait-handsome-attractive-stylish-bearded-man-brown_285396-4608.jpg?w=1060&t=st=1690378339~exp=1690378939~hmac=bc15f16e98afd1b24b0f8b2aacd9069eeabd4170958c19a85fd7e4f759ce29e4" alt=""></a>
+   <p class="off-e">SHIRT</p>
+  </div>
+
+  <div class="img-e col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+    <a href="#"><img class="e" src="https://img.freepik.com/premium-vector/sneaker-red-design_60223-148.jpg" alt=""></a>
+   <p class="off-e">SHOES</p>
+  </div>
+
+  <div class="img-e col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+    <a href="#"><img class="e" src="https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400839.jpg?w=1060&t=st=1690378376~exp=1690378976~hmac=166974582b49872f0c0446758da3a968f4946d933a9fa3c04cf56b722d78c45d" alt=""></a>
+   <p class="off-e">SAREE</p>
+  </div>
+
+  <div class="img-e col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+    <a href="#"><img class="e" src="https://img.freepik.com/free-photo/fashion-portrait-young-beautiful-teen-girls-dress-beauty-fashion-glowing-make-up-shinning-concepts-caucasian-models_155003-14006.jpg?w=1060&t=st=1690378427~exp=1690379027~hmac=1c03d981ce10afee71896dfb20a576da56159303e8038cda76264597fbf5d1e9" alt=""></a>
+   <p class="off-e">KID'S DRESS</p>
+  </div>
+
+  <div class="img-e col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+    <a href="#"><img class="e" src="https://img.freepik.com/free-photo/new-smartwatch-balancing-with-cliff_23-2150296475.jpg?w=1380&t=st=1690378466~exp=1690379066~hmac=a823c8bbe04cd84220e039538af6df68654a6b6cc47bbb4f26bfe8b5be0df6d2" alt=""></a>
+   <p class="off-e">WATCH</p>
+  </div>
+
+  <div class="img-e col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+    <a href="#"><img class="e" src="https://img.freepik.com/free-photo/comfortable-bedding-luggage-modern-travel-adventure-generated-by-ai_24640-100666.jpg?t=st=1690378501~exp=1690382101~hmac=60cd7669f3924793dac6a45a6d0fcfa582db6558d17bde3aa8e6cc670ac3ba45&w=1380" alt=""></a>
+   <p class="off-e">BAG</p>
+  </div>
+
+  <div class="img-e col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+    <a href="#"><img class="e" src="https://img.freepik.com/premium-photo/flip-flops-beach-sand-with-sunset-studio-background_360032-2035.jpg" alt=""></a>
+   <p class="off-e">FLIP-FLOP</p>
+  </div>
+
+  <div class="img-e col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+    <a href="#"><img class="e" src="https://img.freepik.com/free-photo/woman-bright-beret-paints-her-lips-with-red-lipstick-girl-lilac-blouse-posing-pink-background_197531-17566.jpg?w=1060&t=st=1690378531~exp=1690379131~hmac=cefda5382eafe76a05fc3737e9193698bab9ce797ed4e3897cb0a45d10985ad8" alt=""></a>
+   <p class="off-e">LIPSTICK</p>
+  </div>
+
+  <div class="img-e col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+    <a href="#"><img class="e" src="https://img.freepik.com/free-vector/vector-3d-realistic-mock-up-night-cosmetics_33099-1146.jpg?w=740&t=st=1690378711~exp=1690379311~hmac=1bdcd5907aa1172f894170dd49af07186a3b4d06ff7f9c7e5d58cac3e1cb9e63" alt=""></a>
+   <p class="off-e">BODY SPRAY</p>
+  </div>
+
+  <div class="img-e col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+    <a href="#"><img class="e" src="https://img.freepik.com/free-photo/close-up-hindu-bride-s-hands-covered-with-henna-tattoos_8353-8859.jpg?t=st=1690378736~exp=1690379336~hmac=c97bd0646db563513304b6534cbc024ebf0526071183d11a9a733eb3109ac06a" alt=""></a>
+   <p class="off-e">BANGLES</p>
+  </div>
+
+  <div class="img-e col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+    <a href="#"><img class="e" src="https://img.freepik.com/free-photo/gold-jewellery-table-with-other-gold-jewellery_1340-42836.jpg?t=st=1690378874~exp=1690382474~hmac=4d415e923aef36a670ae0ec91be79e21964ac3047cd6c2a428a4724578fe274c&w=1060" alt=""></a>
+   <p class="off-e">JEWELRY</p>
+  </div>
+
+  <div class="img-e col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+    <a href="#"><img class="e" src="https://img.freepik.com/free-photo/collection-dresses-store_188544-25541.jpg?t=st=1690378922~exp=1690382522~hmac=6dac65f254d2dc884b893f67b2f4cd2abe9fa667d5e9becf49d4ebc7f6c0c2e6&w=1380" alt=""></a>
+   <p class="off-e">CHURIDAR</p>
+  </div>
+
+  <div class="img-e col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+    <a href="#"><img class="e" src="https://img.freepik.com/free-photo/healthy-lifestyle-collection-beauty-treatment-hygiene-equipment-medicine-generated-by-ai_188544-21849.jpg?t=st=1690378955~exp=1690382555~hmac=23c715510227846d69447de824ebf8c70eb8f5b1f0d999350d1a835c3937dd23&w=1380" alt=""></a>
+   <p class="off-e">FACE WASH</p>
+  </div>
+
+  <div class="img-e col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+    <a href="#"><img class="e" src="https://img.freepik.com/free-photo/beautiful-young-woman-with-colorful-stage-make-up-generated-by-ai_188544-33878.jpg?t=st=1690378996~exp=1690382596~hmac=4bce027f9400301a2694ce9bcc0e8ab1f102537e5f2c16041b894ca6dca14f15&w=1380" alt=""></a>
+   <p class="off-e">MAKE-UP</p>
+  </div>
+
+  <div class="img-e col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+    <a href="#"><img class="e" src="https://img.freepik.com/free-photo/young-adult-hiking-autumn-forest-landscape-generated-by-ai_188544-38840.jpg?t=st=1690379046~exp=1690382646~hmac=8eb0712de8785219cd68c9ff51521a07b43c9eab398dc3e0f634a89c9436728a&w=1380" alt=""></a>
+   <p class="off-e">CAP</p>
+  </div>
+
+  <div class="img-e col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+    <a href="#"><img class="e" src="https://img.freepik.com/free-photo/antique-atlas-leather-bound-guides-adventurous-journey-beyond-generated-by-ai_188544-14038.jpg?t=st=1690379175~exp=1690382775~hmac=074c735447f2f3e564d76065cb174b66ce7f2645a4f5fb9a0b3e34a26bf9b1cf&w=1380" alt=""></a>
+   <p class="off-e">WALLET</p>
+  </div>
+
+
+  </div>
+</div>
+
+
+ <!-- Heading -->
+       <div class="row">
+       <p class="heading">DEALS ON TOP BRANDS</p>
+       </div>
+
+<!-- f -->
+<div class="container-fluid">
+   <div class="row">
+
+    <div class="f col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+      <img src="https://economictimes.indiatimes.com/thumb/msid-59738997,width-640,resizemode-4,imgsize-21421/nike.jpg" alt="" class="img-f">
+      <p class="p-f">NIKE</p>
+    </div>
+
+    <div class="f col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+      <img src="https://thumbs.dreamstime.com/b/adidas-logo-editorial-illustrative-white-background-adidas-logo-editorial-illustrative-white-background-eps-download-vector-208329055.jpg" alt="" class="img-f">
+      <p class="p-f">ADIDAS</p>
+    </div>
+
+    <div class="f col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/010/994/431/small/puma-logo-black-symbol-with-name-clothes-design-icon-abstract-football-illustration-with-white-background-free-vector.jpg" alt="" class="img-f">
+      <p class="p-f">PUMA</p>
+    </div>
+
+    <div class="f col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBzJ3mWujSD2Tx4lGcWcAXuglf2OpHInm68A&usqp=CAU" alt="" class="img-f">
+      <p class="p-f">CASIO</p>
+    </div>
+
+    <div class="f col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+      <img src="https://logowik.com/content/uploads/images/275_rolex.jpg" alt="" class="img-f">
+      <p class="p-f">ROLEX</p>
+    </div>
+
+    <div class="f col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+      <img src="https://www.omegawatches.com/media/opengraph/og-default.png" alt="" class="img-f">
+      <p class="p-f">OMEGA</p>
+    </div>
+
+    <div class="f col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZUipqdD6erCQpQ8pXt3SCxd2eZJDQ--Ly6A&usqp=CAU" alt="" class="img-f">
+      <p class="p-f">ALLEN SOLLY</p>
+    </div>
+
+    <div class="f col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpCUP1wyPIi1o9N_fOs5bXVW8pJ1GyHovLAw&usqp=CAU" alt="" class="img-f">
+      <p class="p-f">US POLO</p>
+    </div>
+
+    <div class="f col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+      <img src="https://www.highsnobiety.com/static-assets/thumbor/gUNeC4gYqu6GVvgDfH4C4VWd6lc=/1600x1066/www.highsnobiety.com/static-assets/wp-content/uploads/2023/02/07121404/burberry-logo-trend-001.jpg" alt="" class="img-f">
+      <p class="p-f">BURBERRY</p>
+    </div>
+
+    <div class="f col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnjZ240AHMosmFMTjRdbIt5ZPruveWc1hYQg&usqp=CAU" alt="" class="img-f">
+      <p class="p-f">LEVI'S</p>
+    </div>
+
+    <div class="f col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfGq1LsbbMamcsuBj42RUKBEukS8HJhCg2Lg&usqp=CAU" alt="" class="img-f">
+      <p class="p-f">LOUIS PHILIPPE</p>
+    </div>
+
+    <div class="f col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+      <img src="https://mir-s3-cdn-cf.behance.net/projects/404/f69a42120096903.Y3JvcCw1MTg1LDQwNTYsMzIwLDA.jpg" alt="" class="img-f">
+      <p class="p-f">JOHN PLAYERS</p>
+    </div>
+
+    <div class="f col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+      <img src="https://freekaamaal.com/blog/wp-content/uploads/2019/05/logo.png" alt="" class="img-f">
+      <p class="p-f">BHARATSTHALI</p>
+    </div>
+
+    <div class="f col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+      <img src="https://cdn2.vectorstock.com/i/1000x1000/00/06/aanchal-saree-brand-name-is-hindi-world-vector-42010006.jpg" alt="" class="img-f">
+      <p class="p-f">AANCHAL</p>
+    </div>
+
+    <div class="f col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+      <img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/aa035c8f-b87f-43cd-bae1-025c55071887.__CR0,211,3600,4860_PT0_SX463_V1___.jpg" alt="" class="img-f">
+      <p class="p-f">WILD HORN</p>
+    </div>
+
+    <div class="f col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+      <img src="https://mir-s3-cdn-cf.behance.net/projects/404/b196e3173128663.Y3JvcCw4MDgsNjMyLDAsMA.jpg" alt="" class="img-f">
+      <p class="p-f">FOGG</p>
+    </div>
+
+   </div>
+  </div>
+
+ <!-- Heading -->
+       <div class="row">
+       <p class="heading">BEST BUYS</p>
+       </div>
+
+       <!-- g -->
+<div class="container-fluid">
+       <div class="row" style="background-color: black;">
+
+        <div class="g col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+          <img src="https://img.freepik.com/free-psd/shoes-sale-social-media-post-square-banner-template-design_505751-3120.jpg?w=740&t=st=1690381727~exp=1690382327~hmac=5b7e9787eeb3a5a83d97e30f29e6a6b27701efe107659bace4a383143ae80927" alt="" class="img-g">
+          <p class="p-g"> 599/-</p>
+        </div>
+
+        <div class="g col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+          <img src="https://img.freepik.com/free-vector/vector-realistic-illustration-spray-bottle-silvery-color-with-golden-sprayer-black-cap_1441-610.jpg?w=740&t=st=1690381782~exp=1690382382~hmac=d041009698603487f8bf4d94f89dd5fb34373cb27704fb5335f81d0904b8f932" alt="" class="img-g">
+          <p class="p-g">899/-</p>
+        </div>
+
+        <div class="g col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+          <img src="https://img.freepik.com/free-photo/new-smartwatch-balancing-with-hand_23-2150296477.jpg?w=740&t=st=1690381823~exp=1690382423~hmac=ad2908f6fc6bf3244a8ba05c9d15e0decd61e03e86987c2978c41cd717d25b0e" alt="" class="img-g">
+          <p class="p-g">299/-</p>
+        </div>
+
+        <div class="g col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+          <img src="https://img.freepik.com/free-psd/flip-flop-mockup_1310-714.jpg?w=1060&t=st=1690381867~exp=1690382467~hmac=234eb55960a104afce6eea1db2f7f9b44e4461f6f2d7e48c86cad771fd417fd3" alt="" class="img-g">
+          <p class="p-g">1999/-</p>
+        </div>
+
+        <div class="g col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+          <img src="https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400868.jpg?w=1060&t=st=1690381967~exp=1690382567~hmac=5da6dcc81d650646fbbcece64ecf95cfbb4a4452ee59455f392fac2e695d6e0f" alt="" class="img-g">
+          <p class="p-g"> 399/-</p>
+        </div>
+
+        <div class="g col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+          <img src="https://img.freepik.com/free-photo/woman-with-floral-dress-bare-feet_23-2148261281.jpg?w=740&t=st=1690382016~exp=1690382616~hmac=935ef7ec8c0e6b9182e192a6bf86f9cf60ec5f0e1ca06b4d40ab855bb40334d0" alt="" class="img-g">
+          <p class="p-g"> 799/-</p>
+        </div>
+
+        <div class="g col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+          <img src="https://img.freepik.com/free-photo/close-up-flannel-shirt-detail_23-2149575382.jpg?w=996&t=st=1690382049~exp=1690382649~hmac=4bfddb75f2fcc5cc07fb336872a6921de5d3c47c87617a20f9317f11dafae69f" alt="" class="img-g">
+          <p class="p-g">699/-</p>
+        </div>
+
+        <div class="g col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+          <img src="https://img.freepik.com/free-photo/white-front-sweater_125540-793.jpg?w=996&t=st=1690382101~exp=1690382701~hmac=0cdc8ca1ffc386e34b42debc26dfcbd9140c16e2fad888721207047533dcd1a5" alt="" class="img-g">
+          <p class="p-g"> 399/-</p>
+        </div>
+
+
+        <div class="g col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+          <img src="https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448743.jpg?t=st=1690306887~exp=1690307487~hmac=ead9330f12bd65e94edd2f4febb4f761d2bd10883bb261bd250844403ce98aa0" alt="" class="img-g">
+          <p class="p-g">999/-</p>
+        </div>
+
+        <div class="g col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+          <img src="https://img.freepik.com/free-photo/fashion-shoes_1203-7555.jpg?w=1060&t=st=1690382164~exp=1690382764~hmac=914a2ed99188afe9d7650fa71c672d8840109f52530e4b34f411c08e44b02ab1" alt="" class="img-g">
+          <p class="p-g">599/-</p>
+        </div>
+
+        <div class="g col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+          <img src="https://svenklas.com/cdn/shop/products/Svenklas-erno-wallet-teal-7_1800x.jpg?v=1683442499" alt="" class="img-g">
+          <p class="p-g">899/-</p>
+        </div>
+
+        <div class="g col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+          <img src="https://www.jiomart.com/images/product/original/rvupgy9am3/fogg-fresh-aromatic-body-spray-120ml-each-pack-of-1-product-images-orvupgy9am3-p600924639-1-202304260752.jpg?im=Resize=(1000,1000)" alt="" class="img-g">
+          <p class="p-g">299/-</p>
+        </div>
+
+        <div class="g col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+          <img src="https://img.freepik.com/free-psd/cap-mockup_1310-495.jpg?w=1060&t=st=1690382337~exp=1690382937~hmac=5d3a6751bf977140381e2e290a8bed0d1ac4228d93e8926216518ed28576c5c1" alt="" class="img-g">
+          <p class="p-g"> 499/-</p>
+        </div>
+
+        <div class="g col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+          <img src="https://img.freepik.com/free-psd/design-space-blank-tote-bag_53876-57343.jpg?w=740&t=st=1690382365~exp=1690382965~hmac=b62bbb959c99ee4289b9798fe0477267517085d76a4cddce1d0cac8d17a5bdec" alt="" class="img-g">
+          <p class="p-g">799/-</p>
+        </div>
+
+        <div class="g col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk93h46s9BGlIcdsnvg2D5aqZqCAhgN1NrSg&usqp=CAU" alt="" class="img-g">
+          <p class="p-g"> 299/-</p>
+        </div>
+
+        <div class="g col-xs-12 col-sm-6 col-lg-3 col-xl-1">
+          <img src="https://img.freepik.com/free-photo/eye-shadow-cosmetic-isolated-white-background_74190-7850.jpg?w=1060&t=st=1690382458~exp=1690383058~hmac=a3bd7cb2b76f4eb25400a78aee34f95c0f7b655e6123e41086890a1afc94e77f" alt="" class="img-g">
+          <p class="p-g">399/-</p>
+        </div>
+
+       </div>
+
+
+       <div class="row">
+        <p class="footer">Copyright@</p>
+        </div>
+
+
+      </div>
+ </div>
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
